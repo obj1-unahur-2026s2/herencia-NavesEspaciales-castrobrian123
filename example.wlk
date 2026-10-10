@@ -175,7 +175,7 @@ class NaveDeCombate inherits Nave {
     }
 
     method emitioMensaje(mensaje) {
-        mensajesEmitidos.contains(mensaje)
+        return mensajesEmitidos.contains(mensaje)
     }
 
     override method prepararViaje() {
